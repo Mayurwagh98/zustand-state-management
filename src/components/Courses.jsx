@@ -14,9 +14,10 @@ const Courses = () => {
     setNewCourse("");
   };
   return (
-    <div className="">
+    <div>
       <form className="flex">
         <input
+          value={newCourse}
           placeholder="Enter your courses"
           className="p-2 mr-2 border border-e-white outline-0 rounded-md w-[300px]"
           onChange={(e) => setNewCourse(e.target.value)}
