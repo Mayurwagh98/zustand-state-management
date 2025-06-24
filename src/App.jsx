@@ -1,11 +1,12 @@
 import "./App.css";
+import CourseList from "./components/CourseList";
+import Courses from "./components/Courses";
 
 function App() {
   return (
     <>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Courses />
+      <CourseList />
     </>
   );
 }
